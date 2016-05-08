@@ -672,34 +672,6 @@ class Newsletter extends \Backend
 		}
 	}
 
-	/**
-	 * Synchronize the newsletter subscriptions if the visibility is toggled
-	 *
-	 * @param boolean       $blnDisabled
-	 * @param DataContainer $dc
-	 *
-	 * @return boolean
-	 */
-	public function onToggleVisibility($blnDisabled, DataContainer $dc)
-	{
-		if (!$dc->id)
-		{
-			return $blnDisabled;
-		}
-
-		$objUser = $this->Database->prepare("SELECT email FROM tl_member WHERE id=?")
-								  ->limit(1)
-								  ->execute($dc->id);
-
-		if ($objUser->numRows)
-		{
-			$this->Database->prepare("UPDATE tl_newsletter_recipients SET tstamp=?, active=? WHERE email=?")
-						   ->execute(time(), ($blnDisabled ? '' : '1'), $objUser->email);
-		}
-
-		return $blnDisabled;
-	}
-
 
 	/**
 	 * Synchronize newsletter subscription of existing users
