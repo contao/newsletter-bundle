@@ -24,7 +24,7 @@ $GLOBALS['TL_DCA']['tl_member']['config']['onload_callback'][] = array('Newslett
 /**
  * Add save callback
  */
-$GLOBALS['TL_DCA']['tl_member']['fields']['disable']['save_callback'][] = array('Newsletter', 'onToggleVisibility');
+$GLOBALS['TL_DCA']['tl_member']['fields']['disable']['save_callback'][] = array('contao_newsletter.data_container.member', 'onToggleVisibility');
 
 
 /**
