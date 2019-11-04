@@ -1,101 +1,101 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="src/Resources/contao/languages/en/tl_newsletter_channel.php" source-language="en" target-language="es">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_newsletter_channel.php" source-language="en" target-language="da">
     <body>
       <trans-unit id="tl_newsletter_channel.title.0">
         <source>Title</source>
-        <target>Título</target>
+        <target>Overskrift</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.title.1">
         <source>Please enter the title of the channel.</source>
-        <target>Por favor introduzca el título del canal</target>
+        <target>Angiv en titel til denne kanal.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.jumpTo.0">
         <source>Redirect page</source>
-        <target>Saltar a la página</target>
+        <target>Hop til side</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.jumpTo.1">
         <source>Please choose the newsletter reader page to which visitors will be redirected when clicking a newsletter.</source>
-        <target>Por favor seleccione la página a la que los visitantes serán redirigidos cuando seleccionen una newsletter.</target>
+        <target>Vælg venligst siden som brugere bliver videresendt til når der klikkes på et nyhedsbrev.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.template.0">
         <source>E-mail template</source>
-        <target>Plantilla e-mail</target>
+        <target>E-mail skabelon</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.template.1">
         <source>Here you can choose the e-mail template.</source>
-        <target>Por favor seleccione una plantilla e-mail (grupo plantilla &lt;em&gt;mail_&lt;/em&gt;).</target>
+        <target>Vælg venligst en e-mail skabelon (skabelon gruppe &lt;em&gt;mail_&lt;/em&gt;).</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.sender.0">
         <source>Sender e-mail address</source>
-        <target>E-mail del remitente</target>
+        <target>Afsenders e-mailadresse</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.sender.1">
         <source>Please enter the e-mail address of the sender.</source>
-        <target>Por favor, introduzca el E-mail del remitente.</target>
+        <target>Angiv afsenderens e-mailadresse.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.senderName.0">
         <source>Sender name</source>
-        <target>Nombre del remitente</target>
+        <target>Afsendernavn</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.senderName.1">
         <source>Here you can enter an optional sender name.</source>
-        <target>Aquí puede introducir und nombre del remitente opcional.</target>
+        <target>Her kan du angive et valgfrit afsendernavn.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.tstamp.0">
         <source>Revision date</source>
-        <target>Fecha revisión</target>
+        <target>Revideringsdato</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.tstamp.1">
         <source>Date and time of the latest revision</source>
-        <target>Fecha y hora de la última modificación</target>
+        <target>Dato og tid for sidste revidering.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.title_legend">
         <source>Title and redirect</source>
-        <target>Título y redirección</target>
+        <target>Titel og videresend</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.template_legend">
         <source>Template settings</source>
-        <target>Ajustes de plantilla</target>
+        <target>Skabelon indstillinger</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.sender_legend">
         <source>Sender settings</source>
-        <target>Ajustes del remitente</target>
+        <target>Afsender indstillinger</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.new.0">
         <source>New</source>
-        <target>Nuevo</target>
+        <target>Ny</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.new.1">
         <source>Create a new channel</source>
-        <target>Crear un canal nuevo</target>
+        <target>Skab en ny kanal</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.show">
         <source>Show the details of channel ID %s</source>
-        <target>Mostrar los detalles del canal con ID %s</target>
+        <target>Vis detajler for kanal-ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.edit">
         <source>Edit channel ID %s</source>
-        <target>Editar canal con ID %s</target>
+        <target>Rediger kanal-ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.editheader">
         <source>Edit the settings of channel ID %s</source>
-        <target>Editar los ajustes del canal con ID %s</target>
+        <target>Rediger indstillinger for kanal-ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.editmeta">
         <source>Edit the channel settings</source>
-        <target>Editar el canal</target>
+        <target>Rediger kanalen</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.copy">
         <source>Duplicate channel ID %s</source>
-        <target>Duplicar canal con ID %s</target>
+        <target>Kopier kanal-ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.delete">
         <source>Delete channel ID %s</source>
-        <target>Eliminar canal con ID %s</target>
+        <target>Slet kanal-ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.recipients">
         <source>Edit the recipients of channel ID %s</source>
-        <target>Editar los receptores del canal con ID %s</target>
+        <target>Rediger modtagere af kanal-ID %s</target>
       </trans-unit>
     </body>
   </file>
