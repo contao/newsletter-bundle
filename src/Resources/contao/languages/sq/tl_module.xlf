@@ -1,69 +1,69 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="src/Resources/contao/languages/en/tl_module.php" source-language="en" target-language="lv">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_module.php" source-language="en" target-language="sq">
     <body>
       <trans-unit id="tl_module.newsletters.0">
         <source>Subscribable newsletters</source>
-        <target>Abonējamie jaunumi</target>
+        <target>Kanalet e lajmeve</target>
       </trans-unit>
       <trans-unit id="tl_module.newsletters.1">
         <source>Show these channels in the front end form.</source>
-        <target>Parāda kanālus frontend-ā.</target>
+        <target>Zgjedhoni kanalet, të cilat përdoruese mund t'i zgjedh gjatë regjistrimit.</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_channels.0">
         <source>Channels</source>
-        <target>Kanāli</target>
+        <target>Kanalet</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_channels.1">
         <source>Please select one or more channels.</source>
-        <target>Lūdzu izvēlieties vienu vai vairākus kanālus.</target>
+        <target>Zgjedhoni një apo më shumë kanale.</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_text.0">
         <source>Custom text</source>
-        <target>Pielāgots teksts</target>
+        <target>Shënim</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_text.1">
         <source>Here you can e.g. enter a privacy note to make the newsletter subscription GDPR compliant.</source>
-        <target>Šeit jūs varat, piemēram, ievadiet konfidencialitātes piezīmi, lai apkārtrakstu abonēšana būtu saderīga ar GDPR.</target>
+        <target>Këtu mund të shënohen p.sh. të dhëna për ta bërë regjistrimin të përshtatët me GDPR.  </target>
       </trans-unit>
       <trans-unit id="tl_module.nl_hideChannels.0">
         <source>Hide channel menu</source>
-        <target>Paslēpt kanālu izvēlni</target>
+        <target>Fshih menyen e kanalit</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_hideChannels.1">
         <source>Do not show the channel selection menu.</source>
-        <target>Paslēpj kanālu izvēlni</target>
+        <target>Mos e trego menyen e kanalit.</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_subscribe.0">
         <source>Subscription message</source>
-        <target>Abonēšanas paziņojums</target>
+        <target>E-Mal lajmërimi</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_subscribe.1">
         <source>You can use the wildcards &lt;em&gt;##channels##&lt;/em&gt; (channel names), &lt;em&gt;##domain##&lt;/em&gt; (domain name) and &lt;em&gt;##link##&lt;/em&gt; (activation link).</source>
-        <target>Jūs varat izmantot aizstājējzīmes &lt;em&gt;##channels##&lt;/em&gt; (kanālu nosaukumus), &lt;em&gt;##domain##&lt;/em&gt; (domēna nosaukumu) un &lt;em&gt;##link##&lt;/em&gt; (aktivizācijas saiti).</target>
+        <target>Epeni tekstin e e-mail-it për konfirmimin e lajmërimit. Mund të përdorni zëvendësim &lt;em&gt;##channel##&lt;/em&gt; (emri kanalit), &lt;em&gt;##domain##&lt;/em&gt; (emri aktual i domain) dhe &lt;em&gt;##link##&lt;/em&gt; (lidhja për aktivizim).</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_unsubscribe.0">
         <source>Unsubscription message</source>
-        <target>Abonēšanas pārtraukšanas paziņojums</target>
+        <target>E-Mail ç'lajmërimi</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_unsubscribe.1">
         <source>You can use the wildcards &lt;em&gt;##channels##&lt;/em&gt; (channel names) and &lt;em&gt;##domain##&lt;/em&gt; (domain name).</source>
-        <target>Jūs varat izmantot aizstājējzīmes &lt;em&gt;##channels##&lt;/em&gt; (kanālu nosaukumi), &lt;em&gt;##domain##&lt;/em&gt; (domēna nosaukums).</target>
+        <target>Epeni tekstin e e-mail-it për konfirmimin e ç'lajmërimit. Mund të përdorni zëvendësim &lt;em&gt;##channel##&lt;/em&gt; (emri kanalit), &lt;em&gt;##domain##&lt;/em&gt; (emri aktual i domain) dhe &lt;em&gt;##link##&lt;/em&gt; (lidhja për aktivizim).</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_template.0">
         <source>Newsletter template</source>
-        <target>Biļetena veidne</target>
+        <target>Struktura modulit</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_template.1">
         <source>Here you can select the newsletter template.</source>
-        <target>Varat izvēlēties biļetena veidni.</target>
+        <target>Zgjedhoni një struktur të modulit. Mund të fusni struktur lajmesh në dosjen &lt;em&gt;templates&lt;/em&gt;. Shabllonet për lajme fillojnë me &lt;em&gt;nl_&lt;/em&gt; dhe kërkojnë prapashtesën &lt;em&gt;.tpl&lt;/em&gt;.</target>
       </trans-unit>
       <trans-unit id="tl_module.text_legend">
         <source>Custom text</source>
-        <target>Pielāgots teksts</target>
+        <target>Shënim</target>
       </trans-unit>
       <trans-unit id="tl_module.text_subscribe.0">
         <source>Your subscription on %s</source>
-        <target>Jūsu abonements uz %s</target>
+        <target>Lajmërimi juaj me %s</target>
       </trans-unit>
       <trans-unit id="tl_module.text_subscribe.1">
         <source>You have subscribed to the following channels on ##domain##:
@@ -78,28 +78,29 @@ The confirmation link is valid for 24 hours. You can cancel your subscription at
 
 If you did not subscribe yourself, please ignore this e-mail.
 </source>
-        <target>Jūs esat abonējis šādus kanālus ##domain##:
+        <target>Ju jeni regjistruar për këtë kanal në ##domain##:
 
 ##channels##
 
-Lūdzu, noklikšķiniet šeit, lai aktivizētu abonementu:
+Shtypeni këtu për ta aktivizuar regjistrimin:
 
 ##link##
 
-Apstiprinājuma saite ir derīga 24 stundas. Jebkurā laikā varat anulēt abonementu.
+Vegëza me konfirmim skadon brenda 24 orëve. Nderprerja e regjistrimint mund të bëhët çdo herë.
 
-Ja jūs pats neparakstījāties, lūdzu, ignorējiet šo e-pastu.</target>
+Nëse nuk e keni regjistruar veten, ju lutem ignoroni E-Mailin.
+</target>
       </trans-unit>
       <trans-unit id="tl_module.text_unsubscribe.0">
         <source>Your subscription on %s</source>
-        <target>Jūsu abonements uz %s</target>
+        <target>Lajmërimi juaj me %s</target>
       </trans-unit>
       <trans-unit id="tl_module.text_unsubscribe.1">
         <source>You have unsubscribed from the following channels on ##domain##:
 
 ##channels##
 </source>
-        <target>Jūs esat atteicies no šādu kanālu abonēšanas ##domain##:##channels##</target>
+        <target>Jeni ç'lajmëruar me sukses nga kanali ##channel##.</target>
       </trans-unit>
     </body>
   </file>
