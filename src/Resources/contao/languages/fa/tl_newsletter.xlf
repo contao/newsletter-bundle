@@ -1,237 +1,237 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="src/Resources/contao/languages/en/tl_newsletter.php" source-language="en" target-language="de">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_newsletter.php" source-language="en" target-language="fa">
     <body>
       <trans-unit id="tl_newsletter.subject.0">
         <source>Subject</source>
-        <target>Betreff</target>
+        <target>موضوع</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.subject.1">
         <source>Please enter the newsletter subject.</source>
-        <target>Bitte geben Sie den Betreff des Newsletters ein.</target>
+        <target>لطفا یک موضوع مناسب برای خبرنامه وارد نمایید.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.alias.0">
         <source>Newsletter alias</source>
-        <target>Newsletteralias</target>
+        <target>اسم مستعار خبرنامه</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.alias.1">
         <source>The newsletter alias is a unique reference to the newsletter which can be called instead of its numeric ID.</source>
-        <target>Der Newsletteralias ist eine eindeutige Referenz, die anstelle der numerischen Newsletter-ID aufgerufen werden kann.</target>
+        <target>اسم مستعار خبرنامه مرجع یکتایی است که خبرنامه می‌تواند توسط آن به جای شناسه عددی فراخوانی شود.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.content.0">
         <source>HTML content</source>
-        <target>HTML-Inhalt</target>
+        <target>محتوای اچ‌تی‌ام‌ال</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.content.1">
         <source>Here you can enter the HTML content of the newsletter. Use the wildcard &lt;em&gt;##email##&lt;/em&gt; to insert the recipient's e-mail address.</source>
-        <target>Hier können Sie den HTML-Inhalt des Newsletters eingeben. Benutzen Sie den Platzhalter &lt;em&gt;##email##&lt;/em&gt;, um die Empfängeradresse einzufügen.</target>
+        <target>اینجا می‌توانید محتوای اچ‌تی‌ام‌ال خبرنامه را وارد نمایید. از &lt;em&gt;##email##&lt;/em&gt; برای جایگذاری در نشانی ایمیل گیرنده استفاده کنید.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.text.0">
         <source>Text content</source>
-        <target>Text-Inhalt</target>
+        <target>محتوای متنی</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.text.1">
         <source>Here you can enter the text content of the newsletter. Use the wildcard &lt;em&gt;##email##&lt;/em&gt; to insert the recipient's e-mail address.</source>
-        <target>Hier können Sie den Text-Inhalt des Newsletters eingeben. Benutzen Sie den Platzhalter &lt;em&gt;##email##&lt;/em&gt;, um die Empfängeradresse einzufügen.</target>
+        <target>اینجا می‌توانید محتوای متنی خبرنامه را وارد نمایید. از &lt;em&gt;##email##&lt;/em&gt; برای جایگذاری در نشانی ایمیل گیرنده استفاده کنید.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.addFile.0">
         <source>Add attachments</source>
-        <target>Dateien anhängen</target>
+        <target>افزودن پیوست‌ها</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.addFile.1">
         <source>Attach one or more files to the newsletter.</source>
-        <target>Dem Newsletter eine oder mehrere Dateien anhängen.</target>
+        <target>افزودن یک یا چند پرونده به خبرنامه.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.files.0">
         <source>Attachments</source>
-        <target>Dateianhänge</target>
+        <target>پیوست‌ها</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.files.1">
         <source>Please choose the files to be attached from the files directory.</source>
-        <target>Bitte wählen Sie die anzuhängenden Dateien aus der Dateiübersicht.</target>
+        <target>لطفا پرونده‌هایی را که می‌خواهید به خبرنامه پیوست نمایید را انتخاب نمایید.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.template.0">
         <source>Custom e-mail template</source>
-        <target>Individuelles E-Mail-Template</target>
+        <target>قالب ایمیل اختصاصی</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.template.1">
         <source>Here you can override the default e-mail template of the channel.</source>
-        <target>Hier können Sie das Standard-E-Mail-Template des Verteilers überschreiben.</target>
+        <target>اینجا می‌توانید قالب ایمیل پیش‌فرض کانال را رونویسی کنید.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sendText.0">
         <source>Send as plain text</source>
-        <target>Als Text senden</target>
+        <target>فرستادن به صورت متن ساده</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sendText.1">
         <source>Send the newsletter as plain text e-mail without the HTML content.</source>
-        <target>Den Newsletter als reinen Text ohne HTML-Inhalt versenden.</target>
+        <target>ارسال خبرنامه‌ها به صورت متن ساده بدون محتوای اچ‌تی‌ام‌ال.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.externalImages.0">
         <source>External images</source>
-        <target>Externe Bilder</target>
+        <target>تصاویر خارجی</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.externalImages.1">
         <source>Do not embed images in HTML newsletters.</source>
-        <target>Bilder in HTML-Newslettern nicht einbetten.</target>
+        <target>اضافه نکردن تصاویر در خبرنامه اچ‌تی‌ام‌ال.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sender.0">
         <source>Custom sender e-mail address</source>
-        <target>Individuelle Absender-E-Mail-Adresse</target>
+        <target>آدرس ایمیل فرستنده اختصاصی</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sender.1">
         <source>Here you can override the default sender e-mail address of the channel.</source>
-        <target>Hier können Sie die Standard-E-Mail-Adresse des Absenders des Verteilers überschreiben.</target>
+        <target>اینجا می‌توانید آدرس ایمیل فرستنده پیش‌فرض کانال را رونویسی کنید.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.senderName.0">
         <source>Custom sender name</source>
-        <target>Individueller Absendername</target>
+        <target>نام فرستند اختصاصی</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.senderName.1">
         <source>Here you can override the default sender name of the channel.</source>
-        <target>Hier können Sie den Standard-Absendernamen des Verteilers überschreiben.</target>
+        <target>اینجا می‌توانید نام فرستنده پیش‌فرض کانال را رونویسی کنید.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.mailsPerCycle.0">
         <source>Mails per cycle</source>
-        <target>Mails pro Zyklus</target>
+        <target>تعداد پست در هر دوره</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.mailsPerCycle.1">
         <source>The sending process is split into several cycles to prevent the script from timing out.</source>
-        <target>Die Versendung wird in mehreren Teilschritten ausgeführt, um einen vorzeitigen Skriptabbruch zu verhindern.</target>
+        <target>روند ارسال برای جلوگیری از اتمام زمان به دوره‌های چندتایی جدا خواهد شد.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.timeout.0">
         <source>Timeout in seconds</source>
-        <target>Wartezeit in Sekunden</target>
+        <target>زمان وقفه به ثانیه</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.timeout.1">
         <source>Here you can modify the waiting time between each cycle to control the number of e-mails per minute.</source>
-        <target>Hier können Sie die Wartezeit zwischen den Teilschritten festlegen, um die Anzahl der E-Mails pro Minute zu kontrollieren.</target>
+        <target>اینجا می‌توانید زمان بین هر دوره را برای کنترل تعداد ایمیل در هر دقیقه تغییر دهید.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.start.0">
         <source>Offset</source>
-        <target>Versatz</target>
+        <target>شروع چرخه</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.start.1">
         <source>In case the sending process is interrupted, you can enter a numeric offset here to continue with a particular recipient. You can check how many mails have been sent by selecting the category &lt;code&gt;NEWSLETTER_%s&lt;/code&gt; in the system log. If there are 120 entries, enter &quot;120&quot; to continue with the 121st recipient (counting starts at 0).</source>
-        <target>Falls eine Versendung unterbrochen wurde, können Sie hier festlegen, ab welchem Empfänger diese weiterlaufen soll. Wählen Sie im System-Log die Kategorie &lt;code&gt;NEWSLETTER_%s&lt;/code&gt; aus, um zu prüfen wie viele Mails bereits versendet wurden. Waren es z.B. 120 Mails, geben Sie &quot;120&quot; ein, um mit dem 121. Empfänger fortzufahren (die Zählung beginnt bei 0).</target>
+        <target>مواقعی که فرایند ارسال قطع شد، می‌توانید افست عددی را وارد کنید تا با گیرنده‌ی مشخصی ادامه پیدا کند. تعداد ایمیل فرستاده شده در دسته‌بندی &lt;code&gt;NEWSLETTER_%s&lt;/code&gt; در سیستم گزارش می‌توانید بررسی کنید. اگر آنجا ۱۲۰ ورودی بود، «۱۲۰» را برای ادامه با گیرنده‌ی ۱۲۱ام وارد کنید (شمارش با صفر شروع می‌شود).</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sendPreviewTo.0">
         <source>Send preview to</source>
-        <target>Testsendung an</target>
+        <target>ارسال پیش‌نمایش به</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sendPreviewTo.1">
         <source>Send the preview of the newsletter to this e-mail address.</source>
-        <target>Die Testsendung des Newsletters an diese E-Mail-Adresse versenden.</target>
+        <target>ارسال پیش نمایش خبرنامه به این نشانی ایمیل.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.title_legend">
         <source>Title and subject</source>
-        <target>Titel und Betreff</target>
+        <target>عنوان و موضوع</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.html_legend">
         <source>HTML content</source>
-        <target>HTML-Inhalt</target>
+        <target>محتوای اچ‌تی‌ام‌ال</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.text_legend">
         <source>Text content</source>
-        <target>Text-Inhalt</target>
+        <target>محتوای متنی</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.attachment_legend">
         <source>Attachments</source>
-        <target>Dateianhänge</target>
+        <target>پیوست‌ها</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.template_legend">
         <source>Template settings</source>
-        <target>Template-Einstellungen</target>
+        <target>تنظیمات قالب</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sender_legend">
         <source>Sender settings</source>
-        <target>Absendereinstellungen</target>
+        <target>تنظیمات فرستنده</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.expert_legend">
         <source>Expert settings</source>
-        <target>Experteneinstellungen</target>
+        <target>تنطیمات پیشرفته</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sent">
         <source>Sent</source>
-        <target>Gesendet</target>
+        <target>ارسال شده‌ها</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sentOn">
         <source>Sent on %s</source>
-        <target>Gesendet am %s</target>
+        <target>ارسال شده‌ها در %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.notSent">
         <source>Not sent yet</source>
-        <target>Noch nicht gesendet</target>
+        <target>تاکنون ارسال نشده</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.mailingDate">
         <source>Mailing date</source>
-        <target>Versanddatum</target>
+        <target>تاریخ پست</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.confirm">
         <source>The newsletter has been sent to %s recipients.</source>
-        <target>Der Newsletter wurde an %s Empfänger versendet.</target>
+        <target>خبرنامه به %s گیرنده ارسال شده است.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.rejected">
         <source>%s invalid e-mail address(es) has/have been disabled (see system log).</source>
-        <target>%s ungültige E-Mail-Adresse(n) wurde(n) deaktiviert (siehe System-Log).</target>
+        <target>%s نشانی ایمیل غیرفعال شده است (گزارش سیستم را ببینید).</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.error">
         <source>There are no active subscribers to the channel.</source>
-        <target>In diesem Verteiler sind keine aktiven Abonnenten vorhanden.</target>
+        <target>در حال حاضر مشترکی در این خبرنامه وجود ندارد.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.from">
         <source>From</source>
-        <target>Absender</target>
+        <target>از</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.attachments">
         <source>Attachments</source>
-        <target>Dateianhänge</target>
+        <target>پیوست‌ها</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.preview">
         <source>Send preview</source>
-        <target>Testsendung</target>
+        <target>ارسال پیش‌نمایش</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.sendConfirm">
         <source>Do you really want to send the newsletter?</source>
-        <target>Soll der Newsletter wirklich verschickt werden?</target>
+        <target>آیا شما مطمئن هستید که می‌خواهید خبرنامه ارسال شود؟</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.send.0">
         <source>Send newsletter</source>
-        <target>Newsletter versenden</target>
+        <target>ارسال خبرنامه</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.send.1">
         <source>Send newsletter ID %s</source>
-        <target>Newsletter ID %s versenden</target>
+        <target>ارسال خبرنامه شناسه‌ی %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.new.0">
         <source>New</source>
-        <target>Neu</target>
+        <target>جدید</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.new.1">
         <source>Create a new newsletter</source>
-        <target>Einen neuen Newsletter erstellen</target>
+        <target>ایجاد یک خبرنامه جدید</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.show">
         <source>Show the details of newsletter ID %s</source>
-        <target>Details des Newsletter ID %s anzeigen</target>
+        <target>نمایش جزئیات خبرنامه شناسه‌ی %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.edit">
         <source>Edit newsletter ID %s</source>
-        <target>Newsletter ID %s bearbeiten</target>
+        <target>ویرایش خبرنامه شناسه‌ی %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.copy">
         <source>Duplicate newsletter ID %s</source>
-        <target>Newsletter ID %s duplizieren</target>
+        <target>تکثیر خبرنامه شناسه‌ی %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.cut">
         <source>Move newsletter ID %s</source>
-        <target>Newsletter ID %s verschieben</target>
+        <target>جابجایی خبرنامه شناسه‌ی %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.delete">
         <source>Delete newsletter ID %s</source>
-        <target>Newsletter ID %s löschen</target>
+        <target>حذف خبرنامه شناسه‌ی %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter.pasteafter.0">
         <source>Paste into this channel</source>
-        <target>In diesen Verteiler einfügen</target>
+        <target>جاگذاری در این کانال</target>
       </trans-unit>
     </body>
   </file>
