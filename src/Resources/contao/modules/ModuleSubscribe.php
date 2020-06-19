@@ -12,6 +12,7 @@ namespace Contao;
 
 use Contao\CoreBundle\OptIn\OptIn;
 use Patchwork\Utf8;
+user Contao\MemberModel;
 
 /**
  * Front end module "newsletter subscribe".
@@ -351,6 +352,16 @@ class ModuleSubscribe extends Module
 			$objRecipient->addedOn = $time;
 			$objRecipient->save();
 
+			$objMember = MemberModel::findOneByEmail($strEmail);
+			$newsletter_uns = unserialize($objMember->newsletter);
+			if (!in_array($pid, $newsletter_uns))
+			{
+				$newsletter_uns[] = $pid;
+				$member->newsletter = serialize($newsletter_uns);
+				$member->save();
+			}	
+
+			
 			// Remove the blacklist entry (see #4999)
 			if (($objBlacklist = NewsletterBlacklistModel::findByHashAndPid(md5($strEmail), $id)) !== null)
 			{
