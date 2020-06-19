@@ -353,12 +353,12 @@ class ModuleSubscribe extends Module
 			$objRecipient->save();
 
 			$objMember = MemberModel::findOneByEmail($strEmail);
-			$newsletter_uns = unserialize($objMember->newsletter);
-			if (!in_array($pid, $newsletter_uns))
+			$strNewsletter_uns = unserialize($objMember->newsletter);
+			if (!in_array($pid, $strNewsletter_uns))
 			{
-				$newsletter_uns[] = $pid;
-				$member->newsletter = serialize($newsletter_uns);
-				$member->save();
+				$strNewsletter_uns[] = $pid;
+				$objMember->newsletter = serialize($strNewsletter_uns);
+				$objMember->save();
 			}	
 
 			
