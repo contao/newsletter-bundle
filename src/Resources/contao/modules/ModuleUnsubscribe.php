@@ -11,6 +11,7 @@
 namespace Contao;
 
 use Patchwork\Utf8;
+use Contao\MemberModel;
 
 /**
  * Front end module "newsletter unsubscribe".
@@ -238,8 +239,13 @@ class ModuleUnsubscribe extends Module
 		// Remove the subscriptions
 		if (($objRemove = NewsletterRecipientsModel::findByEmailAndPids($strEmail, $arrRemove)) !== null)
 		{
+			$objMember = MemberModel::findOneByEmail($strEmail);
+			$strNewsletter_uns = unserialize($objMember->newsletter);
+			
 			while ($objRemove->next())
 			{
+				$pid = $objRemove->pid;
+				
 				$strHash = md5($objRemove->email);
 
 				// Add a blacklist entry (see #4999)
@@ -252,7 +258,15 @@ class ModuleUnsubscribe extends Module
 				}
 
 				$objRemove->delete();
-			}
+				
+				$key = array_search($pid, $strNewsletter_uns);
+				if (false !== $key)
+				{
+					unset($newsletter_uns[$key]);
+					$objMember->newsletter = serialize($strNewsletter_uns);
+					$objMember->save();
+				}	
+			}	
 		}
 
 		// Get the channels
