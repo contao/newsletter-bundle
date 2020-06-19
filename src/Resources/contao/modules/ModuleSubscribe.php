@@ -341,6 +341,9 @@ class ModuleSubscribe extends Module
 		$time = time();
 		$arrRelated = array();
 
+		$objMember = MemberModel::findOneByEmail($strEmail);
+		$strNewsletter_uns = unserialize($objMember->newsletter);
+		
 		// Add the new subscriptions
 		foreach ($arrNew as $id)
 		{
@@ -352,8 +355,6 @@ class ModuleSubscribe extends Module
 			$objRecipient->addedOn = $time;
 			$objRecipient->save();
 
-			$objMember = MemberModel::findOneByEmail($strEmail);
-			$strNewsletter_uns = unserialize($objMember->newsletter);
 			if (!in_array($pid, $strNewsletter_uns))
 			{
 				$strNewsletter_uns[] = $pid;
