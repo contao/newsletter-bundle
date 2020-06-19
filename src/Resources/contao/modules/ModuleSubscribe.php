@@ -12,7 +12,7 @@ namespace Contao;
 
 use Contao\CoreBundle\OptIn\OptIn;
 use Patchwork\Utf8;
-user Contao\MemberModel;
+use Contao\MemberModel;
 
 /**
  * Front end module "newsletter subscribe".
