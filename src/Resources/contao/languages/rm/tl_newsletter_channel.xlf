@@ -1,101 +1,95 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="src/Resources/contao/languages/en/tl_newsletter_channel.php" source-language="en" target-language="tr">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_newsletter_channel.php" source-language="en" target-language="rm">
     <body>
       <trans-unit id="tl_newsletter_channel.title.0">
         <source>Title</source>
-        <target>Başlık</target>
+        <target>Titel</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.title.1">
         <source>Please enter the title of the channel.</source>
-        <target>Lütfen kanalınız için bir başlık girin</target>
+        <target>Endatar il titel dal chanal</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.jumpTo.0">
         <source>Redirect page</source>
-        <target>Yönlendirme sayfası</target>
+        <target>Pagina per renviar</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.jumpTo.1">
         <source>Please choose the newsletter reader page to which visitors will be redirected when clicking a newsletter.</source>
-        <target>Lütfen ziyaretçilerin bir haber aboneliğine tıkladığında yönlendirileceği haber aboneliği okuyucu sayfasını seçiniz.</target>
+        <target>Tscherner il lectur da newsletter al qual visitaders vegnan renviads sch'els cliccan sin in newsletter.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.template.0">
         <source>E-mail template</source>
-        <target>E-posta şablonu</target>
+        <target>Template dad e-mail</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.template.1">
         <source>Here you can select an e-mail template.</source>
-        <target>Buradan bir e-posta şablonu seçebilirsiniz.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.sender.0">
         <source>Sender e-mail address</source>
-        <target>Gönderenin e-posta adresi</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.sender.1">
         <source>Please enter the e-mail address of the sender.</source>
-        <target>Lütfen gönderenin e-posta adresini giriniz.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.senderName.0">
         <source>Sender name</source>
-        <target>Gönderenin adı</target>
+        <target>Num dal speditur</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.senderName.1">
         <source>Here you can enter an optional sender name.</source>
-        <target>Buraya alternatif bir gönderen adı girebilirsiniz.</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.tstamp.0">
         <source>Revision date</source>
-        <target>Düzenleme tarihi</target>
+        <target>Data da la versiun</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.tstamp.1">
         <source>Date and time of the latest revision</source>
-        <target>En son düzenlemenin tarihi ve saati</target>
+        <target>La data ed il temp da l'ultima versiun</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.title_legend">
         <source>Title and redirect</source>
-        <target>Başlık ve yönlendirme</target>
+        <target>Titel e renviar</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.template_legend">
         <source>Template settings</source>
-        <target>Şablon ayarları</target>
+        <target>Configuraziun da templates</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.sender_legend">
         <source>Sender settings</source>
-        <target>Gönderici ayarları</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.new.0">
         <source>New</source>
-        <target>Yeni</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.new.1">
         <source>Create a new channel</source>
-        <target>Yeni kanal oluştur</target>
+        <target>Crear in nov chanal</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.show">
         <source>Show the details of channel ID %s</source>
-        <target>Kanal ID %s ayrıntılarını göster</target>
+        <target>Mussar ils detagls dal chanal cun l'ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.edit">
         <source>Edit channel ID %s</source>
-        <target>Kanal ID %s düzenle</target>
+        <target>Modifitgar il chanal cun l'ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.editheader">
         <source>Edit the settings of channel ID %s</source>
-        <target>%s kanalının ayarlarını düzenleyin</target>
+        <target>Modifitgar las opziuns dal chanal cun l'ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.editmeta">
         <source>Edit the channel settings</source>
-        <target>Kanal ayarlarını düzenle</target>
+        <target>Modifitgar las opziuns dal chanal</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.copy">
         <source>Duplicate channel ID %s</source>
-        <target>Kanal ID %s çoğalt</target>
+        <target>Duplitgar il chanal cun l'ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.delete">
         <source>Delete channel ID %s</source>
-        <target>Kanal ID %s sil</target>
+        <target>Stizzar il chanal cun l'ID %s</target>
       </trans-unit>
       <trans-unit id="tl_newsletter_channel.recipients">
         <source>Edit the recipients of channel ID %s</source>
-        <target>Kanal ID %s alıcılarını düzenle</target>
+        <target>Modifitgar ils destinaturs dal chanal cun l'ID %s</target>
       </trans-unit>
     </body>
   </file>
