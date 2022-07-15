@@ -1,68 +1,69 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="src/Resources/contao/languages/en/tl_module.php" source-language="en" target-language="sl">
+  <file datatype="php" original="contao/languages/en/tl_module.php" source-language="en" target-language="pt">
     <body>
       <trans-unit id="tl_module.newsletters.0">
         <source>Subscribable newsletters</source>
-        <target>E-novice za prijavo</target>
+        <target>Canais de informativos</target>
       </trans-unit>
       <trans-unit id="tl_module.newsletters.1">
         <source>Show these channels in the front end form.</source>
-        <target>Prikaži izbrane vrste e-novic na strani.</target>
+        <target>Favor selecionar os canais que os usuários poderão assinar durante o processo de registro.</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_channels.0">
         <source>Channels</source>
-        <target>Vrste e-novic</target>
+        <target>Canais</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_channels.1">
         <source>Please select one or more channels.</source>
-        <target>Prosimo izberite eno ali več vrst e-novic.</target>
+        <target>Favor selecionar um ou mais canais.</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_text.0">
         <source>Custom text</source>
-        <target>Poljubno besedilo</target>
+        <target>Texto personalizado</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_text.1">
         <source>Here you can e.g. enter a privacy note to make the newsletter subscription GDPR compliant.</source>
+        <target>Aqui pode por exemplo inserir uma nota de privacidade para a newsletter ser conforme GDPR.</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_hideChannels.0">
         <source>Hide channel menu</source>
-        <target>Skrij meni za vrste e-novic</target>
+        <target>Esconder menu de canais</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_hideChannels.1">
         <source>Do not show the channel selection menu.</source>
-        <target>Ne prikazuj izbirnega menija za vrste e-novic.</target>
+        <target>Não mostrar a seleção de canais do menu.</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_subscribe.0">
         <source>Subscription message</source>
-        <target>Prijavno sporočilo</target>
+        <target>E-mail de assinatura</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_subscribe.1">
         <source>You can use the wildcards &lt;em&gt;##channels##&lt;/em&gt; (channel names), &lt;em&gt;##domain##&lt;/em&gt; (domain name) and &lt;em&gt;##link##&lt;/em&gt; (activation link).</source>
-        <target>Uporabite lahko &quot;wildcards&quot; &lt;em&gt;##channels##&lt;/em&gt; (za imena e-novic), &lt;em&gt;##domain##&lt;/em&gt; (ime domene) in &lt;em&gt;##link##&lt;/em&gt; (aktivacijska povezava).</target>
+        <target>Favor entrar o texto do e-mail de confirmação de assinatura. Você pode usar os curingas &lt;em&gt;##channel##&lt;/em&gt; (nome de canal), &lt;em&gt;##domain##&lt;/em&gt; (domínio atual) e &lt;em&gt;##link##&lt;/em&gt; (link de ativação).</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_unsubscribe.0">
         <source>Unsubscription message</source>
-        <target>Odjavno sporočilo</target>
+        <target>E-mail de cancelamento de assinatura</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_unsubscribe.1">
         <source>You can use the wildcards &lt;em&gt;##channels##&lt;/em&gt; (channel names) and &lt;em&gt;##domain##&lt;/em&gt; (domain name).</source>
-        <target>Uporabite lahko &quot;wildcards&quot; &lt;em&gt;##channels##&lt;/em&gt; (za imena novic) in &lt;em&gt;##domain##&lt;/em&gt; (ime domene).</target>
+        <target>Favor entrar o texto do e-mail de confirmação de cancelamento de assinatura. Você pode usar os curingas &lt;em&gt;##channel##&lt;/em&gt; (nome de canal), &lt;em&gt;##domain##&lt;/em&gt; (domínio atual) e &lt;em&gt;##link##&lt;/em&gt; (link de ativação).</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_template.0">
         <source>Newsletter template</source>
-        <target>Predloga e-novic</target>
+        <target>Layout de módulos</target>
       </trans-unit>
       <trans-unit id="tl_module.nl_template.1">
         <source>Here you can select a newsletter template.</source>
-        <target>Tukaj lahko izberete predlogo za e-novico.</target>
+        <target>Aqui pode seleccionar um modelo newsletter.</target>
       </trans-unit>
       <trans-unit id="tl_module.text_legend">
         <source>Custom text</source>
-        <target>Poljubno besedilo</target>
+        <target>Texto personalizado</target>
       </trans-unit>
       <trans-unit id="tl_module.text_subscribe.0">
         <source>Your subscription on %s</source>
-        <target>Vaše naročilo na e-novice na %s</target>
+        <target>Sua assinatura no %s</target>
       </trans-unit>
       <trans-unit id="tl_module.text_subscribe.1">
         <source>You have subscribed to the following channels on ##domain##:
@@ -77,32 +78,29 @@ The confirmation link is valid for 24 hours. You can cancel your subscription at
 
 If you did not subscribe yourself, please ignore this e-mail.
 </source>
-        <target>Naročili ste se na naslednje novice na ##domain##:
+        <target>Subscreveu os seguintes canais em ##domain##:
 
 ##channels##
 
-Prosimo kliknite tu za aktivacijo vaše prijave:
+Por favor clique aqui para activar a sua subscrição:
 
 ##link##
 
-Poveza je veljavna 24 ur. Naročnino lahko kadarkoli prekinete.
+O link de confirmação é válido por 24 horas. Poderá cancelar a subscrição em qualquer momento.
 
-Če se niste prijavili vi, prosimo ignorirajte ta e-mail.
+Caso não tenha requerido esta subscrição,  por favor ignore este e-mail.
 </target>
       </trans-unit>
       <trans-unit id="tl_module.text_unsubscribe.0">
         <source>Your subscription on %s</source>
-        <target>Vaše naročilo na e-novice na %s</target>
+        <target>Sua assinatura no %s</target>
       </trans-unit>
       <trans-unit id="tl_module.text_unsubscribe.1">
         <source>You have unsubscribed from the following channels on ##domain##:
 
 ##channels##
 </source>
-        <target>Odjavili ste se z e-novic na ##domain##:
-
-##channels##
-</target>
+        <target>Você cancelou sua assinatura do ##channel## com sucesso.</target>
       </trans-unit>
     </body>
   </file>
