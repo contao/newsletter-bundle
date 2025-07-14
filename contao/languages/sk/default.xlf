@@ -1,56 +1,57 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/default.php" source-language="en" target-language="fa">
+  <file datatype="php" original="contao/languages/en/default.php" source-language="en" target-language="sk">
     <body>
       <trans-unit id="ERR.subscribed">
         <source>You are subscribed to the selected channels already.</source>
-        <target>شما قبلا مشترک این خبرنامه شده‌اید.</target>
+        <target>Na odberanie tohto kanála ste už prihlásení.</target>
       </trans-unit>
       <trans-unit id="ERR.unsubscribed">
         <source>You are not subscribed to the selected channels.</source>
-        <target>شما مشترک این خبرنامه نیستید.</target>
+        <target>Nie ste prihlásení na odoberanie tohto kanála.</target>
       </trans-unit>
       <trans-unit id="ERR.invalidToken">
         <source>The activation link is invalid or outdated.</source>
-        <target>پیوند فعال‌سازی نامعتبر یا تاریخ گذشته می‌باشد.</target>
+        <target>Tento odkaz na aktiváciu je neplatný alebo jeho platnosť vypršala.</target>
       </trans-unit>
       <trans-unit id="ERR.noChannels">
         <source>Please select at least one channel.</source>
-        <target>لطفا دست‌کم یک کانال را انتخاب نمایید.</target>
+        <target>Prosím vyberte najmenej jeden kanál.</target>
       </trans-unit>
       <trans-unit id="ERR.onDenyList">
         <source>The e-mail address has been unsubscribed from the channel.</source>
-        <target>آدرس ایمیل از کانال لغو اشتراک شده است.</target>
+        <target>E-mailová adresa bola odhlásená z odberu kanála.</target>
       </trans-unit>
       <trans-unit id="MSC.subscribe">
         <source>Subscribe</source>
-        <target>اشتراک</target>
+        <target>Prihlásiť sa k odberu</target>
       </trans-unit>
       <trans-unit id="MSC.unsubscribe">
         <source>Unsubscribe</source>
-        <target>قطع اشتراک</target>
+        <target>Odhlásiť sa z odberu</target>
       </trans-unit>
       <trans-unit id="MSC.nl_subject">
         <source>Your subscription on %s</source>
-        <target>اشتراک شما در %s</target>
+        <target>Prihlásenie na odber %s</target>
       </trans-unit>
       <trans-unit id="MSC.nl_confirm">
         <source>Thank you for your subscription. You will receive a confirmation e-mail.</source>
-        <target>از اشتراک شما سپاس‌گزاریم. هم اکنون شما برای شما یک ایمیل حاوی لینک فعال‌سازی ارسال گردید.</target>
+        <target>Ďakujeme za Váš záujem. Zaslali sme Vám potvrdzujúci e-mail.</target>
       </trans-unit>
       <trans-unit id="MSC.nl_activate">
         <source>Your subscription has been activated.</source>
-        <target>اشتراک شما با موفقیت فعال گردید.</target>
+        <target>Odoberanie bolo aktivované.</target>
       </trans-unit>
       <trans-unit id="MSC.nl_removed">
         <source>Your subscription has been cancelled.</source>
-        <target>قطع اشتراک شما با موفقیت انجام شد.</target>
+        <target>Odhlásenie prebehlo úspešne.</target>
       </trans-unit>
       <trans-unit id="MSC.nl_channels">
         <source>Channels</source>
-        <target>کانال‌ها</target>
+        <target>Kanály</target>
       </trans-unit>
       <trans-unit id="MSC.nl_overview">
         <source>Back to the newsletter overview</source>
+        <target>Späť na prehľad newslettra</target>
       </trans-unit>
     </body>
   </file>
