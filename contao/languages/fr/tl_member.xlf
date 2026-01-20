@@ -1,21 +1,21 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_member.php" source-language="en" target-language="sk">
+  <file datatype="php" original="contao/languages/en/tl_member.php" source-language="en" target-language="fr">
     <body>
       <trans-unit id="tl_member.newsletter.0">
         <source>Newsletters</source>
-        <target>Odoberanie správ</target>
+        <target>Bulletins d'information</target>
       </trans-unit>
       <trans-unit id="tl_member.newsletter.1">
         <source>Here you can manage the member's subscriptions.</source>
-        <target>Tu môžete pridať členov k jednej alebo viacerým správam.</target>
+        <target>Gérer les inscriptions des membres aux bulletins d'information.</target>
       </trans-unit>
       <trans-unit id="tl_member.newsletter_legend">
         <source>Subscriptions</source>
-        <target>Odbery správ</target>
+        <target>Abonnements</target>
       </trans-unit>
       <trans-unit id="tl_member.newsletterDetails">
         <source>Subscriptions</source>
-        <target>Odbery správ</target>
+        <target>Abonnements</target>
       </trans-unit>
     </body>
   </file>
